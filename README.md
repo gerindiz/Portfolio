@@ -63,23 +63,20 @@ VITE_SUPABASE_URL=tu_url
 VITE_SUPABASE_ANON_KEY=tu_key
 Inicia el servidor de desarrollo:
 
-Bash
-npm run dev
+2. Install dependencies:
+   `npm install`
+
+3. Run the app:
+   `npm run dev`
+---
+
 📧 Contacto
 ¿Buscas un desarrollador con enfoque en soluciones escalables y automatización? ¡Hablemos!
 
-LinkedIn: [Tu LinkedIn Link]
+LinkedIn: [www.linkedin.com/in/grindiz1989]
 
 Web: [Tu URL de Vercel]
 
-Email: [Tu Email]
-
-<p align="center">Desarrollado con ❤️ por Germán Dario Rindizbacher</p>
-**Prerequisites:**  Node.js
+Email: [grindiz1989@gmail.com]
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
