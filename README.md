@@ -13,7 +13,9 @@
 
 ## 📸 Preview
 <p align="center">
-  <img src="./public/assets/preview-desktop.png" alt="Portfolio Preview" width="800px" style="border-radius: 10px; border: 1px solid #333;">
+<img width="1397" height="905" alt="image" src="https://github.com/user-attachments/assets/3ef3bb85-9cd4-45ba-b582-757f5da7015b" />
+
+
 </p>
 
 ---
@@ -75,7 +77,7 @@ Inicia el servidor de desarrollo:
 
 LinkedIn: [www.linkedin.com/in/grindiz1989]
 
-Web: [Tu URL de Vercel]
+Web: [https://portfolio-opal-three-64.vercel.app/]
 
 Email: [grindiz1989@gmail.com]
 
