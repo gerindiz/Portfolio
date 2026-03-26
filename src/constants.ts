@@ -1,18 +1,18 @@
 // src/constants.ts
 
 export const USER_DATA = {
-  name: "Germán Dario Rindizbacher", // Reclamado por Hero.tsx:31
-  role: "Full Stack Developer & AI Specialist", // Reclamado por Hero.tsx:39
+  name: "Germán Dario Rindizbacher",
+  role: "Full Stack Developer & AI Specialist",
   email: "grindiz1989@gmail.com",
   location: "Santa Fe, Argentina",
-  cvUrl: "/Cv German Rindizbacher 2026.pdf", // Reclamado por Hero.tsx:64 (Asegurate que el PDF esté en la carpeta public)
+  // RUTA CORREGIDA:
+  cvUrl: "/cv-german-rindizbacher.pdf", 
   socials: {
     linkedin: "https://www.linkedin.com/in/grindiz1989/",
     github: "https://github.com/gerindiz",
     whatsapp: "https://wa.me/5493426394413"
   }
 };
-
 export const EXPERIENCE = [
   {
     role: "Software Developer",

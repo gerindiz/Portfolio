@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
 
           {/* SECCIÓN DE BOTONES: CV Y CONTACTO */}
           <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 w-full mt-4">
-            {/* Botón Primario: Ver CV */}
+            {/* Botón Primario: Ver CV Online */}
             <a 
               href={USER_DATA.cvUrl} 
               target="_blank" 
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
             {/* Botón Secundario: Descargar PDF */}
             <a 
               href={USER_DATA.cvUrl} 
-              download="Cv German Rindizbacher 2026.pdf"
+              download="CV_German_Rindizbacher.pdf"
               className="px-8 py-4 bg-[#111] border border-white/10 hover:border-blue-500/50 text-white rounded-xl font-bold transition-all flex items-center gap-2 group active:scale-95"
             >
               Descargar PDF
@@ -87,20 +87,18 @@ const Hero: React.FC = () => {
         </div>
 
         {/* COLUMNA DERECHA: La Foto Estilizada */}
-        {/* En móvil se oculta (hidden) y aparece en desktop (lg:flex) */}
         <div className="hidden lg:flex justify-center items-center order-1 lg:order-2">
           <div className="relative group">
             {/* Efecto de resplandor azul detrás de la foto */}
             <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500"></div>
             
-            {/* Contenedor de la foto con borde y sombra */}
+            {/* Contenedor de la foto */}
             <div className="relative size-72 rounded-full overflow-hidden border-4 border-[#111] shadow-2xl shadow-black/50 group-hover:scale-[1.03] transition-transform duration-500">
               <img 
-                src="/assets/foto.jpg" // Asegúrate de que esta ruta sea correcta en tu carpeta public
+                src="/assets/foto.jpg" 
                 alt={USER_DATA.name}
                 className="w-full h-full object-cover"
               />
-              {/* Overlay oscuro sutil */}
               <div className="absolute inset-0 bg-black/10"></div>
             </div>
           </div>
