@@ -5,7 +5,7 @@ export const USER_DATA = {
   role: "Full Stack Developer & AI Specialist", // Reclamado por Hero.tsx:39
   email: "grindiz1989@gmail.com",
   location: "Santa Fe, Argentina",
-  cvUrl: "/cv-german-rindizbacher.pdf", // Reclamado por Hero.tsx:64 (Asegurate que el PDF esté en la carpeta public)
+  cvUrl: "/Cv German Rindizbacher 2026.pdf", // Reclamado por Hero.tsx:64 (Asegurate que el PDF esté en la carpeta public)
   socials: {
     linkedin: "https://www.linkedin.com/in/grindiz1989/",
     github: "https://github.com/gerindiz",
@@ -59,12 +59,25 @@ export const PROJECTS = [
     github: "https://github.com/gerindiz/vital-track-dashboard",
     demo: "https://vital-track-dashboard.vercel.app/",
     images: {
-      main: "/projects/vital-dashboard.webp",
-      database: "/projects/vital-db.webp",
-      excel: "/projects/vital-excel.webp"
+      main: "/projects/proyecto 1/vital-dashboard.webp",
+      database: "/projects/proyecto 1/vital-db.webp",
+      excel: "/projects/proyecto 1/vital-excel.webp",
     }
   },
 
+
+{
+    title: "pro-task-scheduler",
+    description: "Aplicación de productividad de alto rendimiento ",
+    tags: ["HTML5 semántico y CSS3 (Flexbox/Grid)."],
+    github: "https://github.com/gerindiz/pro-task-scheduler?tab=readme-ov-file",
+    demo: "https://gerindiz.github.io/pro-task-scheduler/",
+    images: {
+      main: "/projects/proyecto 2/gestor pro.png",
+      database: "/projects/tents-db.webp",
+      excel: "/projects/tents-excel.webp"
+    }
+  },
 
 {
     title: "Bedouin Tents Uruguay",
@@ -73,11 +86,12 @@ export const PROJECTS = [
     github: "https://github.com/tu-usuario/nombre-repo",
     demo: "https://tu-link-de-demo.vercel.app",
     images: {
-      main: "/projects/tents-m",
-      database: "/projects/tents-db.webp",
-      excel: "/projects/tents-excel.webp"
+      main: "/assets/projects/tents-main.webp",
+      database: "/assets/projects/tents-db.webp",
+      excel: "/assets/projects/tents-excel.webp"
     }
   },
+
 
 {
     title: "Bedouin Tents Uruguay",

@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
             {/* Botón Secundario: Descargar PDF */}
             <a 
               href={USER_DATA.cvUrl} 
-              download="CV_German_Rindizbacher.pdf"
+              download="Cv German Rindizbacher 2026.pdf"
               className="px-8 py-4 bg-[#111] border border-white/10 hover:border-blue-500/50 text-white rounded-xl font-bold transition-all flex items-center gap-2 group active:scale-95"
             >
               Descargar PDF
