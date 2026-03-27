@@ -1,84 +1,87 @@
-# 🚀 Professional Portfolio | Germán Dario Rindizbacher
-### Full Stack Developer & AI Automation Specialist
+# 🚀 Modern Full Stack Portfolio | Software Engineer & AI Automation
+
+¡Bienvenido! Este proyecto es una pieza de ingeniería de alto rendimiento diseñada bajo la estética **Dark Engineering**. No es solo un portfolio estático, sino una aplicación **Full Stack** orientada a la conversión y el análisis de datos en tiempo real.
 
 <div align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
+  <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TS" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </div>
 
 ---
 
 ## 📸 Preview
 <p align="center">
-<img width="1397" height="905" alt="image" src="https://github.com/user-attachments/assets/3ef3bb85-9cd4-45ba-b582-757f5da7015b" />
-
-
+  <img width="100%" alt="Portfolio Preview" src="https://github.com/user-attachments/assets/3ef3bb85-9cd4-45ba-b582-757f5da7015b" />
 </p>
 
 ---
 
-## 🛠️ Sobre el Proyecto
-Este portfolio no es solo una vitrina de proyectos, sino una pieza de ingeniería diseñada para demostrar habilidades en **Arquitectura de Software**, **UI/UX moderno** y **Gestión de Datos Real-Time**.
+## 🛠️ Ingeniería del Proyecto
+Este portfolio demuestra habilidades avanzadas en **Arquitectura de Software**, **UI/UX Premium** y **Gestión de Datos Real-Time**.
 
 ### ✨ Características Principales:
-- **🎨 Dark Engineering Aesthetic:** Interfaz minimalista y profesional diseñada para perfiles técnicos.
-- **⚡ High Performance:** Construido con **Vite** y **React** para cargas ultra rápidas.
-- **📱 Fully Responsive:** Experiencia optimizada para dispositivos móviles y tablets.
-- **🔄 Real-Time Backend:** Integración con **Supabase** para la gestión dinámica de datos y mensajes de contacto.
-- **✨ Framer Motion:** Animaciones fluidas y transiciones suaves para una experiencia de usuario premium.
+* **📊 Real-Time Analytics:** Sistema de tracking propio integrado con **Supabase** para monitorear descargas de CV.
+* **🎨 Dark Engineering Aesthetic:** Interfaz profesional de alto contraste con acentos en azul eléctrico.
+* **⚡ Performance Extrema:** Optimizado con **Vite** para tiempos de carga instantáneos.
+* **🤖 IA & Automation:** Botón de descarga con simulación de procesamiento inteligente.
+* **📱 Mobile First:** Experiencia fluida y adaptativa en todos los dispositivos.
 
 ---
 
 ## 🏗️ Stack Tecnológico
 
-| Capa | Tecnología |
+| Capa | Tecnologías |
 | :--- | :--- |
-| **Frontend** | React 18, TypeScript, Tailwind CSS |
-| **Animaciones** | Framer Motion |
-| **Backend / DB** | Supabase (PostgreSQL) |
-| **Hosting** | Vercel |
-| **Icons** | Lucide React |
+| **Frontend Core** | HTML5, CSS3, JavaScript (ES6+) |
+| **Frameworks** | React 19, TypeScript, Tailwind CSS |
+| **Animaciones** | Framer Motion, Lucide Icons |
+| **Backend / DB** | **Supabase (PostgreSQL)** |
+| **Infraestructura** | Vercel (CI/CD), Git, npm |
+| **Automatización** | Make (Integromat), Google Cloud AI Studio |
 
 ---
 
-## 📦 Proyectos Destacados (Integrados)
-- **VitalTrack:** Dashboard de monitoreo logístico en tiempo real con geolocalización.
-- **E-commerce Industrial:** Aplicación con checkout integrado y gestión de stock.
-- **Gestión Real-Time:** Panel administrativo con FastAPI y MongoDB.
-- **Carpas Beduinas Uruguay:** Landing page automatizada con flujo de consultas por IA.
+## 📦 Proyectos Destacados (Ecosistema Real)
+
+* **VitalTrack 🏥:** Solución profesional de monitoreo logístico en tiempo real para la cadena de frío médica.
+* **Tensacover Uruguay ⛺:** Landing page de alto impacto para alquiler de carpas beduinas con optimización de conversión.
+* **Pro Task Scheduler ⏱️:** Aplicación de productividad avanzada construida con Vanilla JS y persistencia de datos.
 
 ---
 
-## ⚙️ Instalación Local
+## ⚙️ Instalación y Configuración
 
-1. Clona el repositorio:
+1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/gerindiz/Portfolio.git](https://github.com/gerindiz/Portfolio.git)
+Instalar dependencias:
 
-Configura tus variables de entorno en un archivo .env:
+Bash
+npm install
+Variables de Entorno (.env.local):
+Crea un archivo .env.local en la raíz con tus llaves de Supabase:
 
 Fragmento de código
-VITE_SUPABASE_URL=tu_url
-VITE_SUPABASE_ANON_KEY=tu_key
-Inicia el servidor de desarrollo:
+VITE_SUPABASE_URL=[https://yljadnsqkymmkmxemmc.supabase.co](https://yljadnsqkymmkmxemmc.supabase.co)
+VITE_SUPABASE_ANON_KEY=tu_anon_key
+Ejecutar en desarrollo:
 
-2. Install dependencies:
-   `npm install`
+Bash
+npm run dev
+📧 Contacto Profesional
+¿Buscas un desarrollador con enfoque en soluciones escalables y automatización de procesos?
 
-3. Run the app:
-   `npm run dev`
----
+LinkedIn: linkedin.com/in/grindiz1989
 
-📧 Contacto
-¿Buscas un desarrollador con enfoque en soluciones escalables y automatización? ¡Hablemos!
+Web: portfolio-opal-three-64.vercel.app
 
-LinkedIn: [www.linkedin.com/in/grindiz1989]
+Email: grindiz1989@gmail.com
 
-Web: [https://portfolio-opal-three-64.vercel.app/]
+Ubicación: Santa Fe, Argentina 🇦🇷
 
-Email: [grindiz1989@gmail.com]
-
-
+<p align="center">Hecho con 💙 por <b>Germán Dario Rindizbacher</b></p>
