@@ -1,18 +1,16 @@
-// src/constants.ts
-
 export const USER_DATA = {
   name: "Germán Dario Rindizbacher",
   role: "Full Stack Developer & AI Specialist",
   email: "grindiz1989@gmail.com",
   location: "Santa Fe, Argentina",
-  // RUTA CORREGIDA:
-  cvUrl: "/cv-german-rindizbacher.pdf", 
+  cvUrl: "/cv-german-rindizbacher.pdf",
   socials: {
     linkedin: "https://www.linkedin.com/in/grindiz1989/",
     github: "https://github.com/gerindiz",
     whatsapp: "https://wa.me/5493426394413"
   }
 };
+
 export const EXPERIENCE = [
   {
     role: "Software Developer",
@@ -27,7 +25,7 @@ export const CERTIFICATES = [
     titulo: "Técnico Superior en Programación",
     emisor: "INSTITUTO SUPERIOR TECLAB",
     fecha: "07/08/2025",
-    imagen: "/projects/certs/teclab.webp" 
+    imagen: "/projects/certs/teclab.webp"
   },
   {
     titulo: "PCAP: Programming Essentials in Python",
@@ -49,12 +47,10 @@ export const CERTIFICATES = [
   }
 ];
 
-// src/constants.ts
-// src/constants.ts
 export const PROJECTS = [
   {
     title: "VitalTrack — Telemetría Médica",
-    description: "Sistema de telemetría de alta precisión para logística crítica. Desarrollé un dashboard con monitoreo en tiempo real, integración con Supabase para persistencia de datos y exportación de reportes en Excel mediante ExcelJS.",
+    description: "Sistema de telemetría de alta precisión para logística crítica. Dashboard con monitoreo en tiempo real, integración con Supabase y exportación de reportes en Excel mediante ExcelJS.",
     tags: ["React", "Supabase", "TypeScript", "ExcelJS"],
     github: "https://github.com/gerindiz/vital-track-dashboard",
     demo: "https://vital-track-dashboard.vercel.app/",
@@ -64,24 +60,21 @@ export const PROJECTS = [
       excel: "/projects/proyecto 1/vital-excel.webp",
     }
   },
-
-
-{
-    title: "pro-task-scheduler",
-    description: "Aplicación de productividad de alto rendimiento ",
-    tags: ["HTML5 semántico y CSS3 (Flexbox/Grid)."],
+  {
+    title: "Pro Task Scheduler",
+    description: "Aplicación de productividad de alto rendimiento con persistencia de datos.",
+    tags: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/gerindiz/pro-task-scheduler?tab=readme-ov-file",
     demo: "https://gerindiz.github.io/pro-task-scheduler/",
     images: {
       main: "/projects/proyecto 2/gestor pro.png",
-      database: "/projects/tents-db.webp",
-      excel: "/projects/tents-excel.webp"
+      database: "/projects/proyecto 2/gestor pro.png",
+      excel: "/projects/proyecto 2/gestor pro.png"
     }
   },
-
-{
+  {
     title: "Bedouin Tents Uruguay",
-    description: "Plataforma de e-commerce y cotización para alquiler de carpas beduinas. Implementé un sistema de filtrado dinámico y un flujo de reserva optimizado. La arquitectura permite una carga ultra rápida y una gestión de inventario en tiempo real.",
+    description: "Plataforma de e-commerce y cotización para alquiler de carpas beduinas. Sistema de filtrado dinámico y flujo de reserva optimizado.",
     tags: ["React", "Firebase", "Tailwind CSS", "Vite"],
     github: "https://github.com/tu-usuario/nombre-repo",
     demo: "https://tu-link-de-demo.vercel.app",
@@ -91,11 +84,9 @@ export const PROJECTS = [
       excel: "/assets/projects/tents-excel.webp"
     }
   },
-
-
-{
+  {
     title: "Bedouin Tents Uruguay",
-    description: "Plataforma de e-commerce y cotización para alquiler de carpas beduinas. Implementé un sistema de filtrado dinámico y un flujo de reserva optimizado. La arquitectura permite una carga ultra rápida y una gestión de inventario en tiempo real.",
+    description: "Plataforma de e-commerce y cotización para alquiler de carpas beduinas. Sistema de filtrado dinámico y flujo de reserva optimizado.",
     tags: ["React", "Firebase", "Tailwind CSS", "Vite"],
     github: "https://github.com/tu-usuario/nombre-repo",
     demo: "https://tu-link-de-demo.vercel.app",
@@ -104,19 +95,5 @@ export const PROJECTS = [
       database: "/assets/projects/tents-db.webp",
       excel: "/assets/projects/tents-excel.webp"
     }
-  },
-
-
-
-
-
-
-
-
-
-
-
+  }
 ];
-
-// src/constants.ts
-

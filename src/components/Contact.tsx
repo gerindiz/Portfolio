@@ -11,7 +11,6 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Aquí podrías integrar servicios como Formspree o EmailJS en el futuro
     console.log('Form submitted:', formData);
     alert('¡Gracias por escribir! Te responderé a la brevedad.');
     setFormData({ name: '', email: '', subject: '', message: '' });
@@ -21,10 +20,10 @@ const Contact: React.FC = () => {
     <section id="contacto" className="scroll-mt-24 border-t border-white/5 pt-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
         
-        {/* Lado Izquierdo: Formulario */}
+        {/* Formulario */}
         <div className="relative group order-2 lg:order-1">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500/30 to-cyan-600/30 rounded-xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
-          <div className="relative bg-[#0a0a0a] border border-white/10 rounded-xl p-6 md:p-8 shadow-2xl">
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-500/30 to-emerald-600/30 rounded-xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
+          <div className="relative bg-[#2e2e2e] border border-white/10 rounded-xl p-6 md:p-8 shadow-2xl">
             <h3 className="text-xl font-bold text-white mb-2">Enviame un mensaje</h3>
             <p className="text-slate-400 text-sm mb-6">Responderé a tu propuesta en menos de 24 horas.</p>
             
@@ -32,7 +31,7 @@ const Contact: React.FC = () => {
               <div className="space-y-2">
                 <label className="text-xs font-medium text-slate-300 ml-1">Nombre</label>
                 <input 
-                  className="w-full h-11 bg-white/5 border border-white/10 rounded-lg px-4 text-sm text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all" 
+                  className="w-full h-11 bg-white/5 border border-white/10 rounded-lg px-4 text-sm text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all" 
                   placeholder="Tu nombre completo" 
                   type="text"
                   value={formData.name}
@@ -43,7 +42,7 @@ const Contact: React.FC = () => {
               <div className="space-y-2">
                 <label className="text-xs font-medium text-slate-300 ml-1">Email</label>
                 <input 
-                  className="w-full h-11 bg-white/5 border border-white/10 rounded-lg px-4 text-sm text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all" 
+                  className="w-full h-11 bg-white/5 border border-white/10 rounded-lg px-4 text-sm text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all" 
                   placeholder="tu@email.com" 
                   type="email"
                   value={formData.email}
@@ -54,7 +53,7 @@ const Contact: React.FC = () => {
               <div className="space-y-2">
                 <label className="text-xs font-medium text-slate-300 ml-1">Asunto</label>
                 <input 
-                  className="w-full h-11 bg-white/5 border border-white/10 rounded-lg px-4 text-sm text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all" 
+                  className="w-full h-11 bg-white/5 border border-white/10 rounded-lg px-4 text-sm text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all" 
                   placeholder="Ej: Propuesta de Proyecto" 
                   type="text"
                   value={formData.subject}
@@ -65,7 +64,7 @@ const Contact: React.FC = () => {
               <div className="space-y-2">
                 <label className="text-xs font-medium text-slate-300 ml-1">Mensaje</label>
                 <textarea 
-                  className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all resize-none min-h-[120px]" 
+                  className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all resize-none min-h-[120px]" 
                   placeholder="¿En qué puedo ayudarte?"
                   value={formData.message}
                   onChange={e => setFormData({...formData, message: e.target.value})}
@@ -73,7 +72,7 @@ const Contact: React.FC = () => {
                 ></textarea>
               </div>
               <button 
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition-all flex items-center justify-center gap-2 mt-4 shadow-lg shadow-blue-500/20" 
+                className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-lg transition-all flex items-center justify-center gap-2 mt-4 shadow-lg shadow-emerald-500/20" 
                 type="submit"
               >
                 Enviar Mensaje
@@ -83,11 +82,11 @@ const Contact: React.FC = () => {
           </div>
         </div>
 
-        {/* Lado Derecho: Información de Contacto Real */}
+        {/* Info de contacto */}
         <div className="flex flex-col justify-center h-full order-1 lg:order-2">
           <div className="mb-10">
             <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight leading-tight">
-              Vamos a crear<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">algo increíble.</span>
+              Vamos a crear<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-300">algo increíble.</span>
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed max-w-lg">
               Fusionando mi base técnica analítica con el desarrollo moderno para potenciar tu próximo proyecto digital.
@@ -95,20 +94,18 @@ const Contact: React.FC = () => {
           </div>
           
           <div className="space-y-6 mb-12">
-            {/* Link a Email - Usando constants */}
             <div className="flex items-center gap-4 group">
-              <div className="size-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center shrink-0 text-blue-400 group-hover:border-blue-500/50 transition-colors">
+              <div className="size-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center shrink-0 text-emerald-400 group-hover:border-emerald-500/50 transition-colors">
                 <span className="material-symbols-outlined">mail</span>
               </div>
               <div>
                 <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-0.5">Email Directo</div>
-                <a className="text-white hover:text-blue-400 transition-colors font-medium text-lg" href={`mailto:grindiz1989@gmail.com`}>
+                <a className="text-white hover:text-emerald-400 transition-colors font-medium text-lg" href="mailto:grindiz1989@gmail.com">
                   grindiz1989@gmail.com
                 </a>
               </div>
             </div>
             
-            {/* Link a WhatsApp - Usando constants */}
             <div className="flex items-center gap-4 group">
               <div className="size-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center shrink-0 text-emerald-500 group-hover:border-emerald-500/50 transition-colors">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -123,9 +120,8 @@ const Contact: React.FC = () => {
               </div>
             </div>
 
-            {/* Ubicación */}
             <div className="flex items-center gap-4 group">
-              <div className="size-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center shrink-0 text-blue-400">
+              <div className="size-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center shrink-0 text-emerald-400">
                 <span className="material-symbols-outlined">location_on</span>
               </div>
               <div>
@@ -135,14 +131,13 @@ const Contact: React.FC = () => {
             </div>
           </div>
 
-          {/* Redes Sociales Redondas */}
           <div className="flex items-center gap-4">
             <a aria-label="GitHub" className="size-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:border-white transition-all duration-300" href={USER_DATA.socials.github} target="_blank" rel="noreferrer">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
               </svg>
             </a>
-            <a aria-label="LinkedIn" className="size-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:border-blue-500 transition-all duration-300" href={USER_DATA.socials.linkedin} target="_blank" rel="noreferrer">
+            <a aria-label="LinkedIn" className="size-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:border-emerald-500 transition-all duration-300" href={USER_DATA.socials.linkedin} target="_blank" rel="noreferrer">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 21.774.792 22.55 1.771 22.55h20.451C23.2 22.55 24 21.774 24 20.826V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
               </svg>

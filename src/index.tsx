@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -14,25 +13,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-export const TECH_STACK = [
-  {
-    category: "Frontend",
-    icon: "code",
-    skills: ["React 19", "TypeScript", "Tailwind CSS", "Vite", "Next.js"]
-  },
-  {
-    category: "Backend",
-    icon: "terminal",
-    skills: ["Node.js", "Express", "Python", "API REST"]
-  },
-  {
-    category: "Database & Cloud",
-    icon: "database",
-    skills: ["Supabase", "PostgreSQL", "Firebase", "Google Cloud"]
-  },
-  {
-    category: "Herramientas & IA",
-    icon: "auto_awesome",
-    skills: ["Docker", "Git", "Prompt Engineering", "AI Automation"]
-  }
-];

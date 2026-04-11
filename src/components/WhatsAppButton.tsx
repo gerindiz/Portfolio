@@ -1,14 +1,8 @@
-
 import React from 'react';
 
 const WhatsAppButton: React.FC = () => {
   return (
-    <a 
-      className="fixed bottom-6 right-6 z-50 group" 
-      href="https://wa.me/5493426394413" 
-      rel="noopener noreferrer" 
-      target="_blank"
-    >
+    <a className="fixed bottom-6 right-6 z-50 group" href="https://wa.me/5493426394413" rel="noopener noreferrer" target="_blank">
       <div className="relative flex items-center justify-center size-14 rounded-full bg-slate-900/90 backdrop-blur-md border border-emerald-500/20 text-emerald-500 shadow-[0_0_20px_rgba(16,185,129,0.2)] hover:shadow-[0_0_25px_rgba(16,185,129,0.4)] hover:scale-110 hover:border-emerald-500/50 hover:text-emerald-400 transition-all duration-300">
         <span className="absolute bottom-full right-0 mb-3 px-3 py-1.5 bg-slate-900/90 backdrop-blur text-white text-xs font-medium rounded-lg border border-slate-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none transform translate-y-2 group-hover:translate-y-0">
           Hablemos por WhatsApp
