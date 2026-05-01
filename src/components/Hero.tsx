@@ -25,20 +25,35 @@ const Hero: React.FC = () => {
           </h1>
 
           <p className="text-gray-400 text-lg md:text-xl mb-10 max-w-xl leading-relaxed">
-            Especialista en <span className="text-white font-medium">Full Stack Development</span> y{' '}
-            <span className="text-white font-medium">AI Automation</span>.
-            Construyendo soluciones escalables con React 19 y ecosistemas inteligentes.
+            Construyo aplicaciones web en{' '}
+            <span className="text-white font-medium">tiempo real</span>,{' '}
+            <span className="text-white font-medium">dashboards de datos</span> y sistemas de{' '}
+            <span className="text-white font-medium">automatización con IA</span>{' '}
+            — de la arquitectura al deploy.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-            <a href="#proyectos" className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-bold transition-all flex items-center gap-2 shadow-lg shadow-emerald-600/20 active:scale-95">
+            <a
+              href="#proyectos"
+              className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-bold transition-all flex items-center gap-2 shadow-lg shadow-emerald-600/20 active:scale-95"
+            >
               Ver Proyectos <ArrowRight size={18} />
             </a>
             <div className="flex items-center gap-3 ml-2">
-              <a href="https://github.com/gerindiz" target="_blank" rel="noreferrer" className="p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl text-gray-400 hover:text-white transition-all">
+              <a
+                href="https://github.com/gerindiz"
+                target="_blank"
+                rel="noreferrer"
+                className="p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl text-gray-400 hover:text-white transition-all"
+              >
                 <Github size={22} />
               </a>
-              <a href="https://linkedin.com/in/grindiz1989" target="_blank" rel="noreferrer" className="p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl text-gray-400 hover:text-white transition-all">
+              <a
+                href="https://linkedin.com/in/german-rindizbacher"
+                target="_blank"
+                rel="noreferrer"
+                className="p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl text-gray-400 hover:text-white transition-all"
+              >
                 <Linkedin size={22} />
               </a>
             </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Services from './components/Services';
 import Projects from './components/Projects';
 import Stack from './components/Stack';
 import Experience from './components/Experience';
@@ -16,7 +15,6 @@ const App: React.FC = () => {
       <Navbar />
       <main className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24 flex flex-col gap-32">
         <section id="inicio"><Hero /></section>
-        <section id="servicios"><Services /></section>
         <section id="proyectos"><Projects /></section>
         <section id="tecnologias"><Stack /></section>
         <section id="experiencia"><Experience /></section>

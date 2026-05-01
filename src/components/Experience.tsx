@@ -13,15 +13,18 @@ const Experience: React.FC = () => {
         </div>
         <div className="bg-white/[0.03] border border-white/10 p-7 rounded-2xl backdrop-blur-md relative overflow-hidden">
           <div className="absolute top-0 left-0 w-1 h-full bg-emerald-500/40"></div>
-          <p className="text-slate-300 text-[15px] leading-relaxed mb-4">
-            "He trabajado en el diseño e implementación de soluciones desde cero, así como en la{' '}
-            <span className="text-emerald-400 font-medium">mejora y optimización de proyectos existentes</span>.
-            Me he encargado de todo el ciclo de desarrollo, desde la planificación y arquitectura hasta la implementación y mantenimiento, asegurando{' '}
-            <span className="text-white font-semibold">código limpio, escalabilidad y una excelente experiencia de usuario</span>."
-          </p>
-          <p className="text-slate-400 text-[15px] leading-relaxed">
-            Además, colaboro directamente con clientes para entender sus necesidades y traducirlas en soluciones eficientes y funcionales.
-          </p>
+         <p className="text-slate-300 text-[15px] leading-relaxed mb-4">
+  "Desarrollé <span className="text-emerald-400 font-medium">VitalTrack</span> reduciendo 
+  el tiempo de detección de incidencias en cadena de frío de horas a segundos. 
+  Construí <span className="text-emerald-400 font-medium">TensaCover Uruguay</span> 
+  reemplazando un flujo manual de WhatsApp por un CRM con notificaciones automáticas. 
+  Actualmente desarrollando <span className="text-white font-semibold">NexusFlow</span>, 
+  plataforma de automatización con agentes de IA y arquitectura event-driven."
+</p>
+<p className="text-slate-400 text-[15px] leading-relaxed">
+  Trabajo el ciclo completo: relevamiento, arquitectura, implementación y deploy — 
+  con foco en código limpio, escalabilidad y resultados medibles.
+</p>
         </div>
       </div>
 
