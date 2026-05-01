@@ -16,7 +16,7 @@
 
 ## 📸 Preview
 <p align="center">
-  <img width="100%" alt="Portfolio Preview" src="https://github.com/user-attachments/assets/3ef3bb85-9cd4-45ba-b582-757f5da7015b" />
+   <img width="1837" height="902" alt="Portfolio imagen" src="https://github.com/user-attachments/assets/fe19d7d0-4008-45f2-b777-5b54146be21a" />
 </p>
 
 ---
